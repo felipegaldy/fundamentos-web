@@ -1,0 +1,104 @@
+/* estilo da home */
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #d2dae2;
+}
+#menu {
+    margin: 0;
+    margin-bottom: 20px;
+    background: linear-gradient(119deg, rgba(2,9,19,1) 0%, rgba(13,21,31,1) 99%);
+}
+#menu li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: rgb(195, 170, 237);
+}
+
+.center{
+    text-align: center;
+    padding: 5px;
+    margin: 0;    
+}
+.container > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.frases {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.video {
+    margin: 10px;
+}
+.lista-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+.lista-social li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.lista-social li a > img {
+    width: 30px;
+    height: 30px;
+}
+.lista-social li:hover {
+    transform: scale(1.1);
+}
+
+/* estilo contato */
+.formulario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input, textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.formulario label {
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.formulario button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}

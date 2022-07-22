@@ -5,35 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Contato</title>
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo.</h1>
 
-    <form>
-        <label for="nome">Nome: </label>
-        <input type="text" id="nome">
-        <label for="email">email: </label>
-        <input type="email" id="email">
+    <div class="container">
+        <form class="formulario">
+            <label for="nome">Nome </label>
+            <input type="text" id="nome">
+            <label for="email">Email </label>
+            <input type="email" id="email">
+            <label for="assunto">Assunto </label>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <button>
+                Enviar
+            </button>
+        </form>
+        <div class="container-2">
+            <h2>Endereo</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.824190606049!2d-46.74640308532621!3d-23.285837057359387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee6d38ca8f1df%3A0x981ab27f69dbaf59!2sBar%20do%20Tio!5e0!3m2!1spt-BR!2sbr!4v1658423253420!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
 
-        <label for="assunto">Assunto: </label>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-        <button>
-            Enviar
-        </button>
-    </form>
-
-    <h2>Endereco</h2>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.824190606049!2d-46.74640308532621!3d-23.285837057359387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee6d38ca8f1df%3A0x981ab27f69dbaf59!2sBar%20do%20Tio!5e0!3m2!1spt-BR!2sbr!4v1658423253420!5m2!1spt-BR!2sbr"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <hr>
+    <footer >
+        <p class="center">&copy; 2022 - Turma 54 Felipe Silveira</p>
+        <ul class="lista-social">
+            <li class="social"><a href="https://www.github.com/"><img src="assets/image/github.png" alt="GitHub Icon"></a></li>
+            <li class="social"><a href="https://www.linkedin.com/"><img src="assets/image/linkedin.png" alt="linkedin Icon"></a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
